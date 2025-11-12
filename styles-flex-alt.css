@@ -1,0 +1,48 @@
+html{
+background-color: rgb(245, 255, 255);
+}
+
+.first-box{
+background-color: rgb(193, 222, 228);
+border-style: solid;
+border-color: rgb(183, 194, 217);
+
+}
+
+.iner-box{
+background-color: rgb(245, 245, 245);
+padding: 20px;
+}
+
+.heading{
+padding-left: 20px;
+}
+
+.navigation{
+list-style-type: none;
+padding-left: 0;
+display: flex;
+justify-content: space-between;
+margin: 0;
+gap: 10px;
+}
+
+.list-item{
+text-decoration: none;
+padding: 10px;
+background-color: rgb(119, 147, 224);
+display: block;
+text-align: center;
+}
+
+.list-item:hover{
+background-color: rgb(183, 195, 218);
+}
+
+.current-page{
+background-color:rgb(245, 245, 245);
+}
+
+.box{
+flex-grow: 1;
+}
